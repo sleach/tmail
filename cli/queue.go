@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/toorop/tmail/api"
+	"github.com/mattn/tmail/api"
 	cgCli "github.com/urfave/cli"
 )
 

@@ -19,9 +19,9 @@ import (
 	"github.com/nsqio/nsq/nsqd"
 	"github.com/urfave/cli"
 
-	tcli "github.com/toorop/tmail/cli"
-	"github.com/toorop/tmail/core"
-	"github.com/toorop/tmail/rest"
+	tcli "github.com/mattn/tmail/cli"
+	"github.com/mattn/tmail/core"
+	"github.com/mattn/tmail/rest"
 )
 
 const (
@@ -90,8 +90,8 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "tmail"
 	app.Usage = "SMTP server"
-	app.Author = "Stéphane Depierrepont aka toorop"
-	app.Email = "toorop@tmail.io"
+	app.Author = "Stéphane Depierrepont aka mattn"
+	app.Email = "mattn@tmail.io"
 	app.Version = TmailVersion
 	app.Commands = tcli.CliCommands
 	// no know command ? Launch server

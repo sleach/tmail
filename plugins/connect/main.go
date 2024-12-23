@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/bradfitz/gomemcache/memcache"
-	tmail "github.com/toorop/tmail/core"
+	tmail "github.com/mattn/tmail/core"
 )
 
 // note for the poc all variables are hardcoder

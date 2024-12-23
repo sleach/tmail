@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/toorop/tmail/core"
-	"github.com/toorop/tmail/logger"
-	"github.com/toorop/tmail/scope"
+	"github.com/mattn/tmail/core"
+	"github.com/mattn/tmail/logger"
+	"github.com/mattn/tmail/scope"
 )
 
 func TestHandlerUSers(t *testing.T) {

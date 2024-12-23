@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/toorop/tmail/core"
+	"github.com/mattn/tmail/core"
 )
 
 // log helper for INFO log

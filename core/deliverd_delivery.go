@@ -13,7 +13,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/nsqio/go-nsq"
-	"github.com/toorop/tmail/message"
+	"github.com/mattn/tmail/message"
 )
 
 // Delivery is a deliver process
@@ -114,8 +114,8 @@ func (d *Delivery) processMsg() {
 	d.QMsg.Status = 0
 	d.QMsg.SaveInDb()
 
-	// {"Id":7,"Key":"7f88b72858ae57c17b6f5e89c1579924615d7876","MailFrom":"toorop@toorop.fr",
-	// "RcptTo":"toorop@toorop.fr","Host":"toorop.fr","AddedAt":"2014-12-02T09:05:59.342268145+01:00",
+	// {"Id":7,"Key":"7f88b72858ae57c17b6f5e89c1579924615d7876","MailFrom":"mattn@mattn.fr",
+	// "RcptTo":"mattn@mattn.fr","Host":"mattn.fr","AddedAt":"2014-12-02T09:05:59.342268145+01:00",
 	// "DeliveryStartedAt":"2014-12-02T09:05:59.34226818+01:00","NextDeliveryAt":"2014-12-02T09:05:59.342268216+01:00",
 	// "DeliveryInProgress":true,"DeliveryFailedCount":0}
 

@@ -1,6 +1,6 @@
 # tmail
 
-[![Join the chat at https://gitter.im/toorop/tmail](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/toorop/tmail?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/mattn/tmail](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mattn/tmail?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 tmail is a SMTP server
 
@@ -33,7 +33,7 @@ For french users see: http://tmail.io/doc/installer-tmail/
 
 	# su tmail
 	$ cd
-	$ wget ftp://ftp.toorop.fr/softs/tmail/tmail.zip
+	$ wget ftp://ftp.mattn.fr/softs/tmail/tmail.zip
 	$ unzip tmail.zip
 	$ cd dist
 
@@ -116,10 +116,10 @@ For example, if we have tmail listening on ports 2525, and 5877 and we want tu u
 	220 tmail.io  tmail ESMTP f22815e0988b8766b6fe69cbc73fb0d965754f60
 	HELO toto
 	250 tmail.io
-	MAIL FROM: toorop@tmail.io
+	MAIL FROM: mattn@tmail.io
 	250 ok
-	RCPT TO: toorop@tmail.io
-	554 5.7.1 <toorop@tmail.io>: Relay access denied.
+	RCPT TO: mattn@tmail.io
+	554 5.7.1 <mattn@tmail.io>: Relay access denied.
 	Connection closed by foreign host.
 
 Perfect !
@@ -144,9 +144,9 @@ Does it work as expected ?
 	220 tmail.io  tmail ESMTP 96b78ef8f850253cc956820a874e8ce40773bfb7
 	HELO toto
 	250 tmail.io
-	mail from: toorop@toorop.fr
+	mail from: mattn@mattn.fr
 	250 ok
-	rcpt to: toorop@example.com
+	rcpt to: mattn@example.com
 	250 ok
 	data
 	354 End data with <CR><LF>.<CR><LF>
@@ -181,14 +181,14 @@ You can find more elaborated routing rules on [tmail routing documentation (fren
 
 ### SMTP AUTH
 
-If you want to enable relaying after SMTP AUTH for user toorop@tmail.io, just enter:
+If you want to enable relaying after SMTP AUTH for user mattn@tmail.io, just enter:
 
-	tmail user add -r toorop@tmail.io password
+	tmail user add -r mattn@tmail.io password
 
 
-If you want to delete user toorop@tmail.io :
+If you want to delete user mattn@tmail.io :
 
-	tmail user del toorop@tmail.io
+	tmail user del mattn@tmail.io
 
 
 ### Let's Encrypt (TLS/SSL)

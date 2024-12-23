@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/toorop/tmail/config"
-	"github.com/toorop/tmail/logger"
-	"github.com/toorop/tmail/scope"
+	"github.com/mattn/tmail/config"
+	"github.com/mattn/tmail/logger"
+	"github.com/mattn/tmail/scope"
 )
 
 func Test_authorized(t *testing.T) {

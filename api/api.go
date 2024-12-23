@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/toorop/tmail/core"
+	"github.com/mattn/tmail/core"
 )
 
 // USER
